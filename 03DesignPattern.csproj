@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="01SOLID_02OpenClosed.cs" />
-    <None Include="01SOLID_01SingleResponsibility.cs" />
-    <None Include="01SOLID_03LiskovSubstitutionPrinciple.cs" />
-    <None Include="01SOLID_04InterfaceSegregationPrinciple.cs" />
-    <Compile Include="01SOLID_05DependencyInversionPrinciple.cs" />
+    <None Include="01SOLID\01SOLID_02OpenClosed.cs" />
+    <None Include="01SOLID\01SOLID_01SingleResponsibility.cs" />
+    <None Include="01SOLID\01SOLID_03LiskovSubstitutionPrinciple.cs" />
+    <None Include="01SOLID\01SOLID_04InterfaceSegregationPrinciple.cs" />
+    <Compile Include="01SOLID\01SOLID_05DependencyInversionPrinciple.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
