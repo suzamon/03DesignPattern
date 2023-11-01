@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>_03DesignPattern</RootNamespace>
     <AssemblyName>03DesignPattern</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,11 +48,17 @@
     <None Include="01SOLID\01SOLID_01SingleResponsibility.cs" />
     <None Include="01SOLID\01SOLID_03LiskovSubstitutionPrinciple.cs" />
     <None Include="01SOLID\01SOLID_04InterfaceSegregationPrinciple.cs" />
-    <Compile Include="01SOLID\01SOLID_05DependencyInversionPrinciple.cs" />
+    <None Include="01SOLID\01SOLID_05DependencyInversionPrinciple.cs" />
+    <None Include="02Creational_Pattern\01Builder\02_01BuilderPattern_04FunctionalBuilder.cs" />
+    <None Include="02Creational_Pattern\01Builder\02_01BuilderPattern_03StepwuseBuilder.cs" />
+    <None Include="02Creational_Pattern\01Builder\02_01BuilderPattern_02FluentBuilderWithInheritance.cs" />
+    <None Include="02Creational_Pattern\01Builder\02_01BuilderPattern_01Builder.cs" />
+    <Compile Include="02Creational_Pattern\01Builder\02_01BuilderPattern_05FactedBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
